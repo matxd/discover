@@ -1,0 +1,17 @@
+#container h1 {
+    background-color: aliceblue;
+    padding: 20px;
+    color: purple;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#conteudo p {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
