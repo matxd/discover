@@ -1,17 +1,33 @@
+body {
+    height: 100vh;
+}
+
 #container h1 {
     background-color: aliceblue;
-    padding: 20px;
+    padding: 1.25rem;
     color: purple;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     text-align: center;
     font-family: 'Inter', sans-serif;
 }
 
 #conteudo p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     background-color: darkgray;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border-radius: 0.312rem;
     text-align: center;
+}
+
+#botao {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#box {
+    background-image: url(http://source.unsplash.com/random);
+    background-position: center;
+    height: calc(30% - 20px);
+    width: 100%;
 }
