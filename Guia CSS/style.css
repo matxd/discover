@@ -25,12 +25,28 @@ body {
     margin-bottom: 20px;
 }
 
-#box {
+#background {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
     background-image: url(http://source.unsplash.com/random);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30rem;
     background: linear-gradient(45deg ,rgb(128, 162, 250), rgb(23, 67, 177));
-    height: calc(30% - 20px);
-    width: 100%;
+    height: calc(30% - 20px); /* Eixo y - vertical */
+    width: 100%; /* Eixo x - horizontal */
+    /* z-index: value; Eixo z - profundidade */
+}
+
+.boxVerde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.boxAzul {
+    background-color: red;
+    width: 100px;
+    height: 100px;
 }
