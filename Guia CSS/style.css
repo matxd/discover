@@ -9,15 +9,19 @@ body {
     border-radius: 1.25rem;
     text-align: center;
     font-family: 'Inter', sans-serif;
+    text-decoration: underline solid black;
 }
 
 #conteudo p {
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-size: 1.25em;
+    font-weight: bold; /* peso da fonte */
     background-color: #999999;
     padding: 0.625rem;
     border-radius: 0.312rem;
     text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 1px 8px white; /* eixo x | eixo y | blur-radius | color */
 }
 
 #botao {
@@ -32,7 +36,7 @@ body {
     background-image: url(http://source.unsplash.com/random);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 30rem;
+    background-size: 30em;
     background: linear-gradient(45deg ,rgb(128, 162, 250), rgb(23, 67, 177));
     height: calc(30% - 20px); /* Eixo y - vertical */
     width: 100%; /* Eixo x - horizontal */
