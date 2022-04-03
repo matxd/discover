@@ -1,0 +1,17 @@
+body {
+    background-color: #191622;
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#contato, #contato input {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 500px;
+}
