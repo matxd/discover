@@ -31,26 +31,23 @@ const constante = 999
 function createPhrases(){
     return console.log("Paciência e Persistência")
 }
-createPhrases()
 
 // function anonymous, function expression ( não sofre hoisting )
 const sum = function(a, b){
     let total = a + b
     return console.log(total)
 }
-sum(6, 4)
 
 // arrow function ( não sofre hoisting )
 const sayMyName = (name) => {
     return console.log(name)
 }
-sayMyName("Matheus")
 
 // callback function
 function chooseAColor(color){
     return color()
 }
-chooseAColor(() => { console.log("Purple") })
+//chooseAColor(() => { console.log("Purple") })
 
 // function constructor
 function Person(name){
@@ -60,4 +57,43 @@ function Person(name){
     }
 }
 const mth = new Person("Matheus") // instanciando o objeto
-console.log(mth.walk())
+//console.log(mth.walk())
+
+// -------------------------------------------------
+
+// string to number
+let string = "123"
+console.log(Number(string))
+
+// number to string
+let number = 465
+console.log(String(number))
+
+// alguns metodos
+let float = 345.5553546.toFixed(2).replace(".", ",")
+let myName = "Matheus R".toUpperCase()
+let myIncludes = myName.includes("JOAO")
+let myArray = myName.split(" ")
+let myUnderscore = myArray.join("_")
+
+// array com constructor
+let arrayConstructor = new Array("a", "b", "c")
+let arrayWithTypes = ["a", { id: 7 }, () => { return "arrow function dentro do array" }]
+
+// manipulando arrays
+let techs = ["html", "css", "js"]
+
+// adicionar um item no fim
+techs.push("react native")
+// adicionar no começo
+techs.unshift("nodejs")
+// remover do fim
+techs.pop()
+// remover do começo
+techs.shift()
+// pegar somente alguns elementos
+techs.slice(2, 3)
+// remover 1 ou mais itens em qualquer posição
+techs.splice(1, 1)
+// encontrar a posição de um elemento
+techs.indexOf("js")
