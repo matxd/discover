@@ -97,3 +97,42 @@ techs.slice(2, 3)
 techs.splice(1, 1)
 // encontrar a posição de um elemento
 techs.indexOf("js")
+
+// -------------------------------------------------
+
+let age = 20
+if(age >= 18){
+    console.log("Pode entrar")
+} else {
+    console.log("Não pode entrar")
+}
+
+let option = 1
+switch(option){
+    case 1:
+        console.log("Você escolheu a opção numero 1")
+        break
+    case 2:
+        console.log("Você escolheu a opção numero 2")
+        break
+    default:
+        console.log("Escolha a opção 1 ou a opção 2")
+        break
+}
+
+// -------------------------------------------------
+
+function welcome(name = ""){
+    if(name === ""){
+        throw "Nome é obrigatorio"
+    }
+    return console.log(`Seja bem vindo ${name}`)
+}
+
+try {
+    welcome()
+} catch(erro) {
+    console.log(erro)
+}
+
+// -------------------------------------------------
