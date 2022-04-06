@@ -136,3 +136,25 @@ try {
 }
 
 // -------------------------------------------------
+
+for(let i = 0; i < 2; i++){
+    // console.log(`For numero ${i}`)
+}
+
+let i = 1
+while(i <= 2){
+    // console.log(`While numero ${i}`)
+    i++
+}
+
+let arrayNames = ["Matheus", "Dev", "Javascript"]
+for(let element of arrayNames){
+    // console.log(element)
+}
+
+let user = { name: "John", age: 30, weight: 78.8 }
+for(let prop in user){
+    // console.log(prop)
+}
+
+// -------------------------------------------------
