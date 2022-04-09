@@ -28,3 +28,30 @@ body.style.backgroundColor = "#999"
 body.classList.add("class") // adiciona uma class ao elemento
 body.classList.remove("class") // remove a class do elemento
 body.classList.toggle("class") // On, Off
+
+// parentNode e parentElement
+
+body.parentNode
+body.parentElement
+
+// Criando e adicionando elementos HTML
+
+const div = document.createElement("div")
+div.innerText = "Div criada com 'createElement'"
+
+// append e prepend
+body.append(div)
+
+// insert before
+const script = document.querySelector("script")
+body.insertBefore(div, script)
+
+// Eventos
+
+elementSelector.addEventListener("click", print)
+
+function print(){
+    console.log("Clicou")
+}
+
+input.onkeydown = (event) => { console.log(event) }
