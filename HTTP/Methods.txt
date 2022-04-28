@@ -1,0 +1,7 @@
+OPTIONS -> Informação sobre a disponibilidade dos metodos para requisição
+GET -> Pegar um recurso, somente recebe dados
+HEAD -> Semelhante ao get potem recebemos somente o cabeçalho
+PUT -> Criar um novo recurso ou atualizar o recurso
+DELETE -> Remove um recurso
+POST -> Cadastrar um recurso
+PATCH -> Modifica parcialmente um recurso
