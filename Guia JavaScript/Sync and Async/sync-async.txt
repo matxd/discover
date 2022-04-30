@@ -1,0 +1,3 @@
+Sistema sincrono (synchronous) é quando uma tarefa é concluida apos a outra
+
+Sistema assincrono (asynchronous) é quando tarefas são executadas de maneira independente uma das outras
